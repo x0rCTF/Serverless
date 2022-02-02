@@ -101,7 +101,7 @@ sls invoke local -f <$FUNCTION>
  
 ![](https://github.com/x0rCTF/Serverless/blob/main/images/ffff.png)
 
-### Clearning up..
+### Cleaning up..
 
  After we successfully created environment, 
  installed Serverless Framework with purpose to create our project, 
