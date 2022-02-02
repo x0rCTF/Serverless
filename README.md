@@ -61,7 +61,7 @@ sls invoke -f <$FUNCTION> --aws-profile <$PROFILEE>
 or locally:
 
 ```bash
-sls invoke local -f <fuction>
+sls invoke local -f <$FUNCTION>
 ```
 
 ![](https://github.com/x0rCTF/Serverless/blob/main/images/5%20invoke.png)
