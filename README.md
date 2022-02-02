@@ -97,7 +97,7 @@ sls invoke local -f <$FUNCTION>
  
 ![](https://github.com/x0rCTF/Serverless/blob/main/images/8%20update%20%26%20invoke.png)
 
- To confirm that our code is successfully modified & updated, we can check it on the AWS Console.
+ To confirm that our code is successfully modified & updated, we can also check it on the AWS Console.
  
 ![](https://github.com/x0rCTF/Serverless/blob/main/images/ffff.png)
 
