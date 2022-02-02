@@ -100,3 +100,14 @@ sls invoke local -f <$FUNCTION>
  To confirm that our code is successfully modified & updated, we can check it on the AWS Console.
  
 ![](https://github.com/x0rCTF/Serverless/blob/main/images/ffff.png)
+
+### Clearning up..
+
+ After we successfully created environment, 
+ installed Serverless Framework with purpose to create our project, 
+ deployed the code, invoke the request, read logs using the serverless CLI and AWS Console - its time to clean up!
+ 
+![](https://github.com/x0rCTF/Serverless/blob/main/images/clean.png)
+
+
+
