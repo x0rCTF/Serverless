@@ -89,9 +89,14 @@ sls invoke local -f <$FUNCTION>
 
 ### Modifying and updating the code
 
- To modify the code we can use pretty much any text editor, in this case, im just gonna do that with nano.
+ To modify the code we can use pretty much any text editor, in this case, im just going do that using nano.
+ 
 ![](https://github.com/x0rCTF/Serverless/blob/main/images/7%20modify%20.png)
 
  To update the code we are going to deploy again and invoke the function to see its output.
  
 ![](https://github.com/x0rCTF/Serverless/blob/main/images/8%20update%20%26%20invoke.png)
+
+ To confirm that our code is successfully modified & updated, we can check it on the AWS Console.
+ 
+![](https://github.com/x0rCTF/Serverless/blob/main/images/ffff.png)
