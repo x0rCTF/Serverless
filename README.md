@@ -70,7 +70,7 @@ we can also test it locally before deploying within our environment:
 sls invoke local -f <$FUNCTION>
 ```
 
-![](https://github.com/x0rCTF/Serverless/blob/main/images/5%20inv0ke.png)
+![](https://github.com/x0rCTF/Serverless/blob/main/images/inv0ke.png)
 
 ### Reading Cloudwatch logs using serverless cli
 
