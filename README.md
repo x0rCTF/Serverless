@@ -84,6 +84,9 @@ sls invoke local -f <$FUNCTION>
 
 ![](https://github.com/x0rCTF/Serverless/blob/main/images/6%20Get%20Cloudwatch%20logs%20from%20Serverless%20cli.png)
 
+ CloudWatch check:
+![](https://github.com/x0rCTF/Serverless/blob/main/images/CloudWatch.png)
+
 ### Modifying and updating the code
 
 
