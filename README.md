@@ -58,7 +58,7 @@ We can trigger Lambda functions from the CLI with the following syntax:
 sls invoke -f <$FUNCTION> --aws-profile <$PROFILEE>
 ```
 
-or locally:
+we can also test it locally before deploying within our environment:
 
 ```bash
 sls invoke local -f <$FUNCTION>
