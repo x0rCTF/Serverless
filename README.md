@@ -48,7 +48,7 @@ After the artifact is generated, Serverless then deploys this package by:
 2.  Updating the CloudFormation template with S3 paths for the Lambda zip files.
 3.  Submitting the template to CloudFormation to kick start the deployment.
 
-![[Pasted image 20220202194735.png]]
+![](https://github.com/x0rCTF/Serverless/blob/main/images/Pasted%20image%2020220202194735.png)
 
 ### Invoking the request
 
@@ -64,7 +64,7 @@ or locally:
 sls invoke local -f <fuction>
 ```
 
-![[5 invoke.png]]
+![](https://github.com/x0rCTF/Serverless/blob/main/images/5%20invoke.png)
 
 ### Reading Cloudwatch logs using serverless cli
 
@@ -74,12 +74,12 @@ sls invoke local -f <fuction>
  ```
 
 
-![[6 Get Cloudwatch logs from Serverless cli.png]]
+![](https://github.com/x0rCTF/Serverless/blob/main/images/6%20Get%20Cloudwatch%20logs%20from%20Serverless%20cli.png)
 
 ### Modifying and updating the code
 
 
-![[7 modify .png]]
+![](https://github.com/x0rCTF/Serverless/blob/main/images/7%20modify%20.png)
 
 
-![[8 update & invoke.png]]
+![](https://github.com/x0rCTF/Serverless/blob/main/images/8%20update%20%26%20invoke.png)
