@@ -89,8 +89,9 @@ sls invoke local -f <$FUNCTION>
 
 ### Modifying and updating the code
 
-
+ To modify the code we can use pretty much any text editor, in this case, im just gonna do that with nano.
 ![](https://github.com/x0rCTF/Serverless/blob/main/images/7%20modify%20.png)
 
-
+ To update the code we are going to deploy again and invoke the function to see its output.
+ 
 ![](https://github.com/x0rCTF/Serverless/blob/main/images/8%20update%20%26%20invoke.png)
