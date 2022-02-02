@@ -64,13 +64,15 @@ We can trigger Lambda functions from the CLI with the following syntax:
 sls invoke -f <$FUNCTION> --aws-profile <$PROFILEE>
 ```
 
+![](https://github.com/x0rCTF/Serverless/blob/main/images/inv0ke.png)
+
 we can also test it locally before deploying within our environment:
 
 ```bash
 sls invoke local -f <$FUNCTION>
 ```
 
-![](https://github.com/x0rCTF/Serverless/blob/main/images/inv0ke.png)
+![](https://github.com/x0rCTF/Serverless/blob/main/images/invokelocal.png)
 
 ### Reading Cloudwatch logs using serverless cli
 
