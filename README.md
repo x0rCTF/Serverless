@@ -53,6 +53,8 @@ After the artifact is generated, Serverless then deploys this package by:
 
 ![](https://github.com/x0rCTF/Serverless/blob/main/images/s3.png)
 
+![](https://github.com/x0rCTF/Serverless/blob/main/images/CloudFormation.png)
+
 
 ### Invoking the request
 
