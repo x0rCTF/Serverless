@@ -58,7 +58,7 @@ After the artifact is generated, Serverless then deploys this package by:
 
 ### Invoking the request
 
-We can trigger Lambda functions from the CLI with the following syntax:
+ We can trigger Lambda functions from the CLI with the following syntax:
 
 ```bash
 sls invoke -f <$FUNCTION> --aws-profile <$PROFILEE>
@@ -66,7 +66,7 @@ sls invoke -f <$FUNCTION> --aws-profile <$PROFILEE>
 
 ![](https://github.com/x0rCTF/Serverless/blob/main/images/inv0ke.png)
 
-we can also test it locally before deploying within our environment:
+ we can also test it locally before deploying within our environment:
 
 ```bash
 sls invoke local -f <$FUNCTION>
@@ -85,6 +85,7 @@ sls invoke local -f <$FUNCTION>
 ![](https://github.com/x0rCTF/Serverless/blob/main/images/logcheckCLI.png)
 
  CloudWatch check:
+ 
 ![](https://github.com/x0rCTF/Serverless/blob/main/images/CloudWatch.png)
 
 ### Modifying and updating the code
@@ -97,7 +98,7 @@ sls invoke local -f <$FUNCTION>
  
 ![](https://github.com/x0rCTF/Serverless/blob/main/images/8%20update%20%26%20invoke.png)
 
- To confirm that our code is successfully modified & updated, we can also check it on the AWS Console.
+ To confirm that our code is successfully modified & updated, we can also check it on CloudWatch.
  
 ![](https://github.com/x0rCTF/Serverless/blob/main/images/ffff.png)
 
@@ -105,7 +106,7 @@ sls invoke local -f <$FUNCTION>
 
  After we successfully created environment, 
  installed Serverless Framework with purpose to create our project, 
- deployed the code, invoke the request, read logs using the serverless CLI and AWS Console - its time to clean up!
+ deployed the code, invoke the request, read logs using the serverless CLI and CloudWatch - its time to clean up!
  
 ![](https://github.com/x0rCTF/Serverless/blob/main/images/clean.png)
 
