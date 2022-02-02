@@ -11,7 +11,7 @@ Actively maintained by [Serverless Inc](https://www.serverless.com/).
 **[nvm](https://github.com/nvm-sh/nvm)** is a version manager for [node.js](https://nodejs.org/en/), designed to be installed per-user, and invoked per-shell. `nvm` works on any POSIX-compliant shell (sh, dash, ksh, zsh, bash), in particular on these platforms: unix, macOS, and [windows WSL](https://github.com/nvm-sh/nvm#important-notes).
 
 ## Installing the latest Node.js LTS version using NVM
-![[1 nvm.png]]
+![](https://github.com/x0rCTF/Serverless/blob/main/images/1%20nvm.png)
 
 
 ### Installing Serverless framework 
