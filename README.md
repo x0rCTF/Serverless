@@ -20,12 +20,12 @@ Actively maintained by [Serverless Inc](https://www.serverless.com/).
 npm install -g serverless
 ```
 
-![[Pasted image 20220202185259.png]]
+![](https://github.com/x0rCTF/Serverless/blob/main/images/Pasted%20image%2020220202185259.png)
 
 
 ### Creating a new serverless project on AWS using Node.js
 
-![[3 Create a new serverless project on AWS using Node.png]]
+![](https://github.com/x0rCTF/Serverless/blob/main/images/3%20Create%20a%20new%20serverless%20project%20on%20AWS%20using%20Node.png)
 
 Here we specified that we will use `aws-nodejs` as template, which will be stored in `~/Mentorship/`, and the name of our project is `SLSFunc`. 
 `handler.js` - has our JavaScript code. Event handlers are **the JavaScript code that invokes a specific piece of code when a particular action happens on an HTML element**. The event handler can either invoke the direct JavaScript code or a function.
@@ -33,7 +33,7 @@ Here we specified that we will use `aws-nodejs` as template, which will be store
 
 ### Deployin the code.
 
-![[4 deploy.png]]
+![](https://github.com/x0rCTF/Serverless/blob/main/images/4%20deploy.png)
 
 #### How serverless deploy works
 When you run `serverless deploy`, two steps are run behind the scenes. Serverless Framework first runs `serverless package` to package your code and build a CloudFormation template. By default, the artifact is generated in the `.serverless/` directory of your project root with the following contents:
