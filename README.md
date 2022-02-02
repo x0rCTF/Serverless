@@ -42,13 +42,17 @@ When you run `serverless deploy`, two steps are run behind the scenes. Serverles
 2.  A CloudFormation template file that describes the resources defined in your `serverless.yml`.
 3.  A `serverless-state.json` file that is used internally by Serverless Framework.
 
+![](https://github.com/x0rCTF/Serverless/blob/main/images/Pasted%20image%2020220202194735.png)
+
+
 After the artifact is generated, Serverless then deploys this package by:
 
 1.  Uploading the zip file to S3.
 2.  Updating the CloudFormation template with S3 paths for the Lambda zip files.
 3.  Submitting the template to CloudFormation to kick start the deployment.
 
-![](https://github.com/x0rCTF/Serverless/blob/main/images/Pasted%20image%2020220202194735.png)
+![](https://github.com/x0rCTF/Serverless/blob/main/images/s3.png)
+
 
 ### Invoking the request
 
