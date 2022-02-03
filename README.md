@@ -28,7 +28,7 @@ npm install -g serverless
 ![](https://github.com/x0rCTF/Serverless/blob/main/images/3%20Create%20a%20new%20serverless%20project%20on%20AWS%20using%20Node.png)
 
 Here we specified that we will use `aws-nodejs` as template, which will be stored in `~/Mentorship/`, and the name of our project is `SLSFunc`. 
-`handler.js` - has our JavaScript code. Event handlers are **the JavaScript code that invokes a specific piece of code when a particular action happens on an HTML element**. The event handler can either invoke the direct JavaScript code or a function.
+`handler.js` - has our JavaScript code. The Lambda function handler is the method in your function code that processes events. When your function is invoked, Lambda runs the handler method. When the handler exits or returns a response, it becomes available to handle another event.
 `serverless.yml` - the main config file that defines your functions, events and resources. For full config options, check the [docs](https://www.serverless.com/framework/docs/).
 
 ### Deployin the code.
