@@ -90,7 +90,7 @@ sls invoke local -f <$FUNCTION>
 
 ### Modifying and updating the code
 
- To modify the code we can use pretty much any text editor, in this case, im just going do that using nano.
+ To modify the code we can use pretty much any text editor, in this case, I am just going to do that using nano.
  
 ![](https://github.com/x0rCTF/Serverless/blob/main/images/7%20modify%20.png)
 
@@ -98,15 +98,15 @@ sls invoke local -f <$FUNCTION>
  
 ![](https://github.com/x0rCTF/Serverless/blob/main/images/8%20update%20%26%20invoke.png)
 
- To confirm that our code is successfully modified & updated, we can also check it on CloudWatch.
+ To confirm that our code is successfully modified and updated, we can also check it on CloudWatch.
  
 ![](https://github.com/x0rCTF/Serverless/blob/main/images/ffff.png)
 
 ### Cleaning up..
 
- After we successfully created environment, 
- installed Serverless Framework with purpose to create our project, 
- deployed the code, invoke the request, read logs using the serverless CLI and CloudWatch - its time to clean up!
+ After we successfully created the environment, 
+ installed Serverless Framework to create our project, 
+ deployed the code, invoked the request, read logs using the serverless CLI and CloudWatch - it is time to clean up!
  
 ![](https://github.com/x0rCTF/Serverless/blob/main/images/clean.png)
 
