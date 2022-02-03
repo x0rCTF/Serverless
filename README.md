@@ -1,6 +1,6 @@
 
 # Serverless framework
-**The Serverless Framework** – Build applications on AWS Lambda and other next-gen cloud services, that auto-scale and only charge you when they run. This lowers the total cost of running and operating your apps, enabling you to build more and manage less.
+**The Serverless Framework** – Builds applications on AWS Lambda and other next-gen cloud services, that auto-scale and only charge you when they run. This lowers the total cost of running and operating your apps, enabling you to build more and manage less.
 
 The Serverless Framework is a command-line tool that uses easy and approachable YAML syntax to deploy both your code and cloud infrastructure needed to make tons of serverless application use-cases. It's a multi-language framework that supports Node.js, Typescript, Python, Go, Java, and more. It's also completely extensible via over 1,000 plugins that can add more serverless use-cases and workflows to the Framework.
 
@@ -27,7 +27,7 @@ npm install -g serverless
 
 ![](https://github.com/x0rCTF/Serverless/blob/main/images/3%20Create%20a%20new%20serverless%20project%20on%20AWS%20using%20Node.png)
 
-Here we specified that we will use `aws-nodejs` as template, which will be stored in `~/Mentorship/`, and the name of our project is `SLSFunc`. 
+Here we specified that we will use `aws-nodejs` as a template, which will be stored in `~/Mentorship/`, and the name of our project is `SLSFunc`. 
 `handler.js` - has our JavaScript code. The Lambda function handler is the method in your function code that processes events. When your function is invoked, Lambda runs the handler method. When the handler exits or returns a response, it becomes available to handle another event.
 `serverless.yml` - the main config file that defines your functions, events and resources. For full config options, check the [docs](https://www.serverless.com/framework/docs/).
 
