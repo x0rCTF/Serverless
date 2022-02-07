@@ -34,7 +34,7 @@ We can create rules that self-trigger on an automated schedule in CloudWatch Eve
 
 ### Provider
 
-Here we'll define our general settings. Such as the name of the platform we are working on, our region, profile 
+Here we will define our general settings. Such as the name of the platform we are working on, our region etc.
 
 ```yml
 provider:
@@ -44,9 +44,9 @@ provider:
   
 ```
 
-*Defining `profile` allowed me for further execution of the serverless command, in my terminal, without specifing `--aws-profile` in my syntax.*
+*Defining `profile` allowed me for further execution of the serverless command, in my terminal, without specifing `--aws-profile` in the syntax.*
 
-When we invoke a function and we dont have specified resources within it, that function will get our default resources from the general function settings.
+When we invoke a function and we dont have specified resources for it, that function will get our default resources from the general function settings.
 
 ```yml
   runtime: nodejs14.x
@@ -122,7 +122,7 @@ functions:
           path: /time
           method: get
 
-# S3 Event
+# # S3 Event
   s3event:
     handler: func2.upload
     name: ${opt:stage}-s3event
