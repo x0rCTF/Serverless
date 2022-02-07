@@ -122,7 +122,7 @@ functions:
           path: /time
           method: get
 
-# # S3 Event
+# S3 Event
   s3event:
     handler: func2.upload
     name: ${opt:stage}-s3event
