@@ -30,7 +30,7 @@ params:
 #    cron: cron(0/15 * * * ? *)
 ```
 
-We can create rules that self-trigger on an automated schedule in CloudWatch Events using cron or rate expressions. Meaning, if the function is deployed in `--stage dev` and has a variable that refers to our rate parameter, it will be self-triggered for the exact amount of time we have defined in our rate expression.
+We can create rules that self-trigger on an automated schedule in CloudWatch Events using cron or rate expressions. Meaning, if the function is deployed in `--stage dev` and has a variable that refers to our rate parameter, as we have in our `hello` function, it will be self-triggered for the exact amount of time we have defined in our rate expression.
 
 ### Provider
 
@@ -64,7 +64,6 @@ Creating IAM role in `provider` will automaticlly attach to every function in th
   iam:
     role:
       statements:
-	  
 # log group permissions	  
         - Effect: Allow
           Action:
